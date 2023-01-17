@@ -38,34 +38,39 @@ footer .menu .li-footer {
     list-style: none;
 }
 
-footer .social-icon .li-footer #a-footer {
-    font-size: 2rem;
-    color: #fff;
+
+footer #a-footer {
+    font-size: 2.3rem;
+    color: rgb(117, 117, 117);
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
 }
 
-/* hover på dessa funkar inte  */
-
-footer .social-icon .li-footer#a-footer:hover {
-    transition: translateY(-10px);
-}
-
-/* footer .menu .li-footer#a-footer {
-    font-size: 1.2rem;
-    color: #fff;
+footer #afooter {
+    font-size: 1.3rem;
+    color: rgb(117, 117, 117);
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
     display: inline-block;
     text-decoration: none;
-    opacity: 0.75;
-} */
-/* 
-footer .menu .li-footer#a-footer:hover {
+    /* opacity: 0.75; */
+}
+
+
+footer #a-footer:hover {
     opacity: 1;
-} */
+    transform: translateY(-10px);
+    color: white;
+
+}
+
+/* text under ikoner  */
+footer #afooter:hover {
+    opacity: 1;
+    color: white;
+}
 
 /* rights */
 footer .p-footer {
@@ -73,5 +78,5 @@ footer .p-footer {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 1em;
+    font-size: 13px;
 }

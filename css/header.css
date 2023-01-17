@@ -17,10 +17,6 @@
     position: fixed;
 }
 
-main {
-    background-color: #2c3e50;
-    height: 200vh;
-}
 
 #label-header.logo {
     color: white;
@@ -42,7 +38,7 @@ main {
 }
 
 .nav-header .ul-header .li-header #a-header {
-    color: white;
+    color: #fff;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
