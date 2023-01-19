@@ -140,7 +140,7 @@
 }
 
 .section-header {
-    background: url(/assets/img-assets/front.jpg) no-repeat;
+    background: url(../assets/img-assets/front.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }
