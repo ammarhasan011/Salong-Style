@@ -14,7 +14,8 @@
 footer {
     position: relative;
     width: 100%;
-    background: #3586ff;
+    /* background: #3586ff; */
+    background: linear-gradient(to right, #ff2c2c, #fff, #0f5298);
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -45,6 +46,16 @@ footer #a-footer {
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
+}
+
+footer #swish-logo {
+    /* height: 13px; */
+    width: 100px;
+}
+
+footer #swish-logo:hover {
+    opacity: 1;
+    transform: translateY(-10px);
 }
 
 footer #afooter {
@@ -79,4 +90,12 @@ footer .p-footer {
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 13px;
+}
+
+footer .p2-footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }

@@ -36,7 +36,7 @@
 }
 
 .nav-header.sticky {
-    background-color: #0082e6;
+    background: linear-gradient(to right, #ff2c2c, #fff, #0f5298);
 }
 
 
@@ -114,6 +114,7 @@
     .omar-img {
         width: 250px;
         height: 350px;
+        margin-top: 10px;
     }
 
     .nav-header .ul-header .li-header #a-header {
