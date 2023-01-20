@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+/* .front {
+    position: relative;
+    flex-direction: column;
+    background-size: cover;
+} */
+
+.omar-img {
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px 30px rgb(0 0 0 / 18%);
+}
+
+
 .section-header {
     color: transparent;
 }
@@ -88,11 +105,15 @@
     display: none;
 }
 
-
 @media (max-width: 952px) {
     #label-header.logo {
         font-size: 24px;
         /* padding-left: 50px; */
+    }
+
+    .omar-img {
+        width: 250px;
+        height: 350px;
     }
 
     .nav-header .ul-header .li-header #a-header {
@@ -139,14 +160,14 @@
     }
 }
 
+
 .section-header {
-    background: url(../assets/img-assets/front.jpg) no-repeat;
+    background: url(../assets/img-assets/wallpaper1.webp) no-repeat;
     background-size: cover;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 40px);
 }
 
-/* 
-
+/*
 .cont {
     width: 100vh;
     height: 100vh;
