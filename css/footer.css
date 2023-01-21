@@ -15,7 +15,8 @@ footer {
     position: relative;
     width: 100%;
     /* background: #3586ff; */
-    background: linear-gradient(to right, #ff2c2c, #fff, #0f5298);
+    /* background: linear-gradient(to right, #ff2c2c, #fff, #0f5298); */
+    background: radial-gradient(circle at top left, #ff2c2c, #fff, #0f5298);
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
