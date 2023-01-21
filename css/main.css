@@ -3,3 +3,18 @@
     font-size: 2rem;
     border: solid red;
 }
+
+.part-2 {
+    background-color: bisque;
+    min-height: 100vh;
+}
+
+.pole {
+    height: 100px;
+}
+
+@media (max-width: 952px) {
+    .pole {
+        height: 100px;
+    }
+}
