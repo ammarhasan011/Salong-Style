@@ -4,13 +4,15 @@
     border: solid red;
 }
 
-.part-2 {
+.times {
     background-color: bisque;
-    min-height: 100vh;
+    height: auto;
 }
 
 .pole {
     height: 100px;
+    margin-top: 10px;
+    left: -10;
 }
 
 @media (max-width: 952px) {

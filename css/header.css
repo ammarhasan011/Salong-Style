@@ -53,7 +53,7 @@
 
 
 
-
+/* loggan */
 #label-header.logo {
     color: black;
     font-size: 35px;
@@ -88,7 +88,9 @@
 }
 
 #a-header:hover {
-    background: #1b9bff;
+    /* background: #1b9bff; */
+    background: transparent;
+    box-shadow: 10px 10px 10px 10px #2c3e50;
     transition: .5s;
 }
 
@@ -169,22 +171,3 @@
     background-size: cover;
     height: calc(100vh - 40px);
 }
-
-/*
-.cont {
-    width: 100vh;
-    height: 100vh;
-    border: solid #0082e6;
-}
-
-.box {
-    width: 200px;
-    height: 200px;
-    transition-duration: 2s;
-    border: solid red;
-}
-
-.box:hover {
-    background: #2c3e50;
-    transform: rotate(45deg);
-} */
